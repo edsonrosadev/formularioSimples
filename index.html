@@ -1,0 +1,112 @@
+<html> 
+    <head>
+        <title> Cadastro Pessoal </title>
+        <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+       
+    </head>
+
+    <body>
+        <div>
+            <h1 id="titulo"> CADASTRO PESSOAL</h1>
+        </div>
+        <form>
+            <fieldset class= "grupo">
+
+                    <div class="campo">
+                        <label for="nome"><strong>Nome</strong></label>
+                        <input type = "text" nome="nome" id="nome" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="sobrenome"><strong>Sobrenome</strong></label>
+                        <input type = "text" nome="sobrenome" id="sobrenome" required>
+                    </div>
+           </fieldset>
+        
+           <fieldset class= "grupo">
+                 <div class="campo">
+                    <label for="cpf"><strong>CPF</strong></label>
+                     <input type = "text" nome="cpf" id="cpf" required>
+                     
+                </div>
+       
+                 <div class="campo">
+                     <label for="rg"><strong>RG</strong></label>
+                    <input type = "text" nome="rg" id="rg" required>
+                 </div>
+
+                
+
+             </fieldset>     
+
+             <div class="campo">
+                <label ><strong>Sexo</strong></label>
+                <label for="sexo2">
+                    <input id="sexo2" type="radio" name="sexo" value="f" /> <strong>Feminino</strong>
+                </label>
+                <label for="sexo1">
+                    <input id= "sexo1" type ="radio" name="sexo" value="m" /> <strong>Masculino</strong>
+                </label>
+               
+            </div>
+           
+            
+            <fieldset class="grupo">
+
+                <div class="campo">
+                    
+                    <label><strong>Avenida/Rua</strong></label>
+                    <input type = "text" nome="rua" id="rua" required>
+                </div>
+
+                <div class="campo">
+
+                    <label><strong>Número</strong></label>
+                    <input type = "text" nome="numero" id="numero" required>
+                </div>
+
+                <div class="campo">
+                    <label><strong>Bairro</strong></label>
+                    <input type = "text" nome="bairro" id="bairoo" >
+                </div>
+               
+                <div class="campo">
+                    <label><strong>Cidade</strong></label>
+                    <input type = "text" nome="cidade" id="cidade" >
+                </div>
+
+                <div class="campo">
+                    <label><strong>Estado</strong></label>
+                    <input type = "text" nome="estado" id="estado" >
+                </div>
+
+                <div class="campo">
+                    <label><strong>Telefone</strong></label>
+                    <input type = "text" nome="telefone" id="telefone" >
+                </div>
+
+                <div class="campo">
+                    <label><strong>Celular</strong></label>
+                    <input type = "text" nome="celular" id="celular" required>
+                </div>
+
+                <script src="script.js"> </script>
+                <button class="botao" type="enviar" onclick="enviar()">Enviar</button>
+            
+        </form>
+
+       
+
+       
+
+    </body>
+    
+    
+
+    
+
+    
+
+
+
+</html>
